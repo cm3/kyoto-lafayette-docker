@@ -1,0 +1,1 @@
+docker run --rm -it -v "$PWD/../local/lscfg":/usr/share/logstash/config -v "$PWD/../local/esdata":/usr/share/logstash/data docker.elastic.co/logstash/logstash:5.1.1 /bin/bash
